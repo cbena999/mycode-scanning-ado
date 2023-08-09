@@ -39,7 +39,7 @@ jobs:
          git submodule add https://github.com/cbena999/mycodeql-anywhere.git
       pwsh: true
       
-  # Use PowerShell to run the CodeQL scan and return SARIF results to GitHub
+  # Use PowerShell to run the CodeQL scan and return SARIF results to GitHub...
   # git submodule add https://github.com/david-wiggs/codeql-anywhere.git
   # if (Test-Path './.git/modules/codeql-anywhere') {rm -rf './.git/modules/codeql-anywhere'}
   - task: PowerShell@2
