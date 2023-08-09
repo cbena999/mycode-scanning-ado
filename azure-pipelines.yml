@@ -46,7 +46,7 @@ jobs:
     displayName: 'Run New-CodeQLScan.ps1'
     inputs:
       targetType: filePath
-      filePath: 'codeql-anywhere/resources/scripts/New-CodeQLScan.ps1'
+      filePath: 'mycodeql-anywhere/resources/scripts/New-CodeQLScan.ps1'
       pwsh: true
     env:
       # GITHUB_TOKEN environment variable must be set to pass in the secret value defined in the $(GHAS_ADO) ADO pipeline variable.
