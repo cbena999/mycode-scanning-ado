@@ -37,7 +37,7 @@ jobs:
       targetType: inline
       script: |
          if (Test-Path './.git/modules/my-codeql-anywhere') {rm -rf './.git/my-modules/codeql-anywhere'}
-         git submodule add https://github.com/cbena999/mycodeql-anywhere.git
+         git submodule add https://github.com/cbena999-1/mycodeql-anywhere.git
       pwsh: true
       
   # Use PowerShell to run the CodeQL scan and return SARIF results to GitHub...
